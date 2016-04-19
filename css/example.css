@@ -8,97 +8,115 @@
 .ul{
   list-style-type: none;
 }
-.Soda ul{
+.Sodas ul{
   margin-bottom: 100px;
   margin-left: 80px;
   width: 300px;
   height: 50px;
   line-height:50px;
   text-align: center;
+  font-size:12px;
 }
 
-.Soda ul li{
+.Sodas ul li{
   cursor: pointer;
   border: 3px solid #73AD21;
   background-color: #73AD21;
 }
  #Coke {
   background:#73AD21;
-  width:59%;
+  width: 17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
+
 }
  #CokeZero {
   background:#6699ff;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 }
 #OrangeCoke {
   background:#99ccff;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 
 }
 #CherryZero {
   background:#6666cd;
-  width:59%;
+  width:17%;
   height:60px;
-  margin: 11px 225px;
+  margin: 6px 2px;
+  font-size: 24px;
 }
 #CherryVanilla{
   background:#9999cc;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 }
 #MelloYello {
   background:#9999ff;
-  width:59%;
+  width:17%;
   height:60px;
-  margin: -7px 229px;
+  margin: 6px 2px;
+  font-size: 24px;
 }
 #MinuteMainLemonade {
   background:#666699;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 }
 #MinuteMainLight {
   background:#9966cc;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 }
 #Sprite {
   background:#6633cc;
-  width:59%;
+  width:17%;
   height:60px;
   margin: 12px 0;
+  font-size: 24px;
 }
 
-#task{
-  margin-left: 30px;
-  margin-top:113px;
+#output{
+  margin-left: 128px;
+  margin-top: 13px;
   width: 45%;
   height:70px;
   font-size:15px;
 
 }
 
-#buysoda{
+#get-soda{
+  margin-left: 30px;
+  margin-top:-18px;
+  font-size:20px;
+}
+
+#costs{
   margin-left: 30px;
   margin-top:-18px;
 }
 #amount-paid{
   height: 31px;
   width: 138px;
-  margin-left: 126px;
+  margin-left: 128px;
 }
-#get-soda{
+#soda-price{
   height:36px;
   width:180px;
   margin-left: 100px;
   margin-top: 20px;
+  font-size:20px;
 }

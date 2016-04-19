@@ -4,37 +4,31 @@
       <title>Soda Machine </title>
       <link rel="stylesheet" type="text/css" href="css/example.css" />
 
-
-
     </head>
     <body>
       <div class="title">
       <h1>Soda Machine</h1>
     </div>
-      <div class="Soda">
+      <ul id="Sodas">
         <ul>
           <li  id="Coke" data-price="1.5" >Coke</li>
           <li  id="CokeZero" data-price="1.5" >Coke Zero</li>
-          <li  id="OrangeCoke"data-price="2.00">Orange Coke</li>
+          <li  id="OrangeCoke" data-price="2.00">Orange Coke</li>
         </ul>
         <ul>
-          <li  id="CherryZero" data-price="1.75" >Cherry Zero</li>
-          <li  id="CherryVanilla" data-price="1.75" >Cherry Vanilla</li>
+          <li   id="CherryZero" data-price="1.75" >Cherry Zero</li>
+          <li   id="CherryVanilla" data-price="1.75" >Cherry Vanilla</li>
           <li  id="MelloYello" data-price="2.00" >Mello Yello</li>
         </ul>
         <ul>
-          <li  id="MinuteMainLemonade" data-price="2.75" >Minute Main Lemonade</li>
-          <li  id="MinuteMainLight" data-price="2.00" >Minute Main Light</li>
-          <li  id="Sprite" data-price"3.00" >Sprite</li>
+          <li   id="MinuteMainLemonade" data-price="2.75" >Minute Main Lemonade</li>
+          <li   id="MinuteMainLight" data-price="2.00" >Minute Main Light</li>
+          <li  id="Sprite" data-price="3.00" >Sprite</li>
         </ul>
-      </div>
-      <div id="task"></div>
-         <div id="buysoda">
-           <input id="amount-paid" type="text" placeholder="input money here"/>
-           <button id="get-soda">Give me soda</button>
-         </div>
-      <div id="taskmak"></div>
-    </div>
+      <div id="soda-price">This soda costs <span id="cost"></span></div>
+      <input id="amount-paid" type="number" placeholder="Input money here"/>
+      <button id="get-soda">Give Me Soda</button>
+      <div id="output"></div>
       </body>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <script type="text/javascript" src="js/colacode.js"></script>
